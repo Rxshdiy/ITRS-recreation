@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.nav-bar{
+  padding: 0 17%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  
+}
+
+.nav-bar img{
+  width: 150px;
+}
+
+.background-overlay{
+  position: absolute;
+  z-index: -3;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(255,255,255,0) 28%,rgba(207,206,206,.19) 45%,rgba(35,31,32,.85)),url(../Assets/6318559b7cad3525dd789ae9_Plane\ Background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-heading{
+  height: 79vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.main-heading h1{
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.main-heading p{
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.main-heading button{
+  padding: 10px 40px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  z-index: 100;
+}
+
+/* button hover has a glow effect and scales up by 1.4 */
+.main-heading button:hover{
+  box-shadow: 0 0 5px 5px white;
+  transform: scale(1.2);
+  outline: 0;
+}
+
+.plane-home{
+  position: absolute;
+  background-image: url(../Assets/6318559b7cad350cd6789aeb_Plane.png);
+  height: 90vh;
+  width: 100vw;
+  object-fit: contain;
+  background-position: 50% ;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
