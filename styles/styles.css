@@ -68,6 +68,7 @@ a{
   border: none;
   margin-top: 20px;
   z-index: 100;
+  transition: 0.5s all ease;
 }
 
 /* button hover has a glow effect and scales up by 1.4 */
@@ -89,3 +90,379 @@ a{
   overflow: hidden;
 }
 
+.below-main-heading{
+  height: 14vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2%;
+  background-color: #231f20;
+  color: white;
+}
+
+.hover-animated-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hover-text1{
+  margin-left: 100px;
+}
+
+.hover-animated-text h1{
+  font-size: 1.3em;
+  font-weight: normal;
+  flex: 3;
+}
+
+.hover-animated-text img{
+  max-width: 80px;
+}
+
+.dividing-line{
+  height: 80%;
+  width: 2px;
+  background-color: white;
+}
+
+.arrows{
+  
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+.arrows img{
+  max-width: 80px;
+  max-height: 80px;
+  cursor: pointer;
+  
+}
+
+
+.grey-arrow{
+  transform: translateX(-50px);
+  transition: 1s all ease;
+}
+
+.black-arrow{
+  transform: translateX(-100px);
+  transition: 1s all ease;
+}
+
+.cloud img{
+  width: 200px;
+  height: 200px;
+}
+
+.first-pargraph{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: visible;
+  margin: 0 5%;
+}
+
+.bottom-line{
+  height: 6px;
+  width: 100%;
+  background-color: #757575;
+}
+
+.red-dot{
+  height: 6px;
+  width: 6px;
+  background-color: #e53935;
+  margin: 0 auto;
+}
+
+.grid-layout-service{
+  display: grid;
+  grid-template-columns: 1fr 50px 200px 1fr 50px 200px;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: center ;
+  position: relative;
+  margin: 4% 0;
+}
+
+.grid-layout-service2{
+  display: grid;
+  grid-template-columns: 200px 1fr 50px 200px 1fr 50px;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: center ;
+  position: relative;
+  margin: 4% 0;
+}
+
+.grid-layout-service3{
+  display: grid;
+  grid-template-columns: 1fr 50px 200px 1fr 50px 200px;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: center ;
+  position: relative;
+  margin: 4% 0;
+}
+
+.first-pargraph p{
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 10px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 1.6em;
+}
+
+.our-service-model h1{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.our-service-model h1{
+  font-weight: 600;
+}
+
+.our-service-model{
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.why-choose{
+  padding: 15px 30px;
+  display: flex;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 3px solid #e53935;
+  color: #e53935;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin: 0 auto;
+  margin-top: 40px;
+
+}
+
+.why-choose:hover{
+  background-color: #e53935;
+  color: white;
+  cursor: pointer;
+  transition: 1s all ease;
+}
+
+.background-bottom{
+  width: 100vw;
+  background-image: linear-gradient(rgba(35,31,32,.85),rgba(35,31,32,.85)),url(../Assets/background-bottom.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 5% 10%;
+}
+
+.background-bottom h1{
+  font-weight: 500;
+  font-size: 1.7em;
+}
+
+.grid-bottom{
+  height: 50vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.first-paragraph1{
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+.button1{
+  grid-area: 3 / 1 / 3 / 2;
+}
+
+.button2{
+  grid-area: 3 / 2 / 3 / 3;
+}
+
+.button3{
+  grid-area: 4 / 1 / 4 / 2;
+}
+
+.button4{
+  grid-area: 4 / 2 / 4 / 3;
+}
+
+
+
+.bottom-container{
+  grid-area: 1 / 3 / 5 / 5;
+}
+
+.button1, .button2, .button3, .button4{
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid gray;
+  color: black;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.background-bottom h1{
+  margin-bottom: 20px;
+}
+
+.first-paragraph1{
+  padding-right: 70px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.bottom-container{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  border: 1px solid gray;
+  padding: 20px;
+  justify-content: center;
+  display: none;
+  visibility: hidden;
+  transition: 1s all ease;
+  opacity: 0;
+}
+
+.active{
+  display: flex;
+  visibility: visible;
+  transition: 1s all ease;
+  opacity: 1;
+}
+
+.bottom-container a{
+  color: #e53935;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bottom-container p{
+  font-weight: 300;
+  line-height: 1.6em;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.active-button{
+  background-color: #e53935;
+  color: white;
+  border: 3px solid #e53935;
+  transition: 0.5s all ease;
+}
+
+/* 2 columns 2 rows equal grid */
+
+.blogs-grid-layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding: 0 10%;
+  margin: 60px 0;
+}
+
+.articles-div img{
+  min-width: 47%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.articles-div{
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  background-color: #231f20;
+  color: white;
+}
+
+.articles-div p{
+  color: #e53935;
+  text-align: left;
+}
+
+.article-text{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.articles-div h1{
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.blog-heading{
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+.footer{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../Assets/6318559b7cad35ed91789b14_Texture\ BG\ 3D.png),linear-gradient(#939598,#939598);
+}
+
+
+.footer-links{
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 7%;
+  border-bottom: 2px white solid;
+}
+
+.footer-links img{
+  height: 35%;
+}
+
+.footer-links a{
+  color: white;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 3%;
+}
+
+.social-icons{
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px;
+  border: 2px solid #e53935;
+}
+
+.social-icons img{
+  max-width: 100%;
+  vertical-align: middle;
+}

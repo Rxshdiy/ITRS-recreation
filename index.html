@@ -9,6 +9,18 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/responsive.design.css" />
+    <script
+      src="https://kit.fontawesome.com/eebca1a7f7.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      defer
+    ></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/animations.js" defer></script>
   </head>
   <body>
     <div class="background-overlay"></div>
@@ -24,14 +36,263 @@
       <a href="#">Blogs+articles</a>
       <a href="#">Contact us</a>
     </div>
+    <div class="nav-phone-only">
+      <img src="Assets/6318559b7cad35d85a789aec_Logo Square.png" alt="" />
+      <img src="Assets/bars-solid.svg" alt="" />
+    </div>
+    <div class="nav-menu-clicked">
+      <i class="fa-solid fa-xmark" style="color: white"></i>
+      <div class="nav-menu">
+        <a href="index.html">Why itrs</a>
+        <a href="#">Services+solutions</a>
+        <a href="#">Blogs+articles</a>
+        <a href="#">Contact us</a>
+      </div>
+    </div>
 
     <!-- main heading div with a h1 tag, p tag and button -->
     <div class="main-heading">
-      <h1>IT Risk Management Solutions</h1>
+      <h1 class="heading">IT Risk Management Solutions</h1>
       <p>ITRS = Business - Risk ²</p>
       <button>Services + solutions</button>
     </div>
+    <div class="below-main-heading">
+      <div class="hover-animated-text hover-text1">
+        <h1>Get a Free Risk Assessment</h1>
+        <div class="arrows">
+          <img src="Assets/white-arrow.svg" alt="" class="white-arrow" />
+          <img src="Assets/mid-arrow.svg" class="grey-arrow grey2" />
+          <img src="Assets/dark-arrow.svg" alt="" class="black-arrow black2" />
+        </div>
+      </div>
+      <div class="dividing-line"></div>
+      <div class="hover-animated-text hover-text2">
+        <h1>Automate IT With MAPO</h1>
+        <div class="arrows">
+          <img src="Assets/white-arrow.svg" alt="" class="white-arrow" />
+          <img src="Assets/mid-arrow.svg" class="grey-arrow grey1" />
+          <img src="Assets/dark-arrow.svg" alt="" class="black-arrow black1" />
+        </div>
+      </div>
+    </div>
+    <div class="our-service-model">
+      <h1>Our Service Model</h1>
+      <div class="grid-layout-service">
+        <div class="first-pargraph">
+          <p>Collect the information you need to assess risks.</p>
+          <div class="bottom-line"></div>
+        </div>
+        <div class="red-dot"></div>
+        <div class="cloud">
+          <img
+            src="Assets/6318559b7cad35973e789afe_Cloud Graphic Test.svg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="first-pargraph">
+          <p>Find all valuable assets across the organization</p>
+          <div class="bottom-line"></div>
+        </div>
+        <div class="red-dot"></div>
+        <div class="cloud">
+          <img
+            src="Assets/6318559b7cad35973e789afe_Cloud Graphic Test.svg"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+      <div class="grid-layout-service2">
+        <div class="cloud">
+          <img
+            src="Assets/6318559b7cad35973e789afe_Cloud Graphic Test.svg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="first-pargraph">
+          <p>Identify potential consequences.</p>
+          <div class="bottom-line"></div>
+        </div>
+        <div class="red-dot"></div>
+        <img
+          src="Assets/6318559b7cad35973e789afe_Cloud Graphic Test.svg"
+          alt=""
+          srcset=""
+        />
+        <div class="first-pargraph">
+          <p>Identify threats and their level.</p>
+          <div class="bottom-line"></div>
+        </div>
+        <div class="red-dot"></div>
+        <div class="cloud"></div>
+      </div>
+      <div class="grid-layout-service3">
+        <div class="first-pargraph">
+          <p>Collect the information you need to assess risks.</p>
+          <div class="bottom-line"></div>
+        </div>
+        <div class="red-dot"></div>
+        <div class="cloud">
+          <img
+            src="Assets/6318559b7cad35973e789afe_Cloud Graphic Test.svg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="first-pargraph">
+          <p>Find all valuable assets across the organization</p>
+          <div class="bottom-line"></div>
+        </div>
+        <div class="red-dot"></div>
+        <div class="cloud">
+          <img
+            src="Assets/6318559b7cad35973e789afe_Cloud Graphic Test.svg"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+      <button class="why-choose">Why choose itfrs</button>
+    </div>
+    <div class="background-bottom">
+      <h1>Services + Solutions</h1>
+      <div class="grid-bottom">
+        <p class="first-paragraph1">
+          ITRS aims to provide safe, stable and secure IT environments by
+          designing and building state-of-the art secure infrastructures, based
+          on security best practices and by implementing necessary policies,
+          training, monitoring and preventative measures.
+        </p>
+        <button class="button1 active-button">
+          Secure Cloud infrastructure
+        </button>
+        <button class="button2">Offensive Cybersecurity</button>
+        <button class="button3">Information Security (InfoSec)</button>
+        <button class="button4">Dr + Risk</button>
+        <div class="bottom-container active">
+          <h1>Secure Cloud infrastructure</h1>
+          <p>
+            Our cloud services are comprehensive and cover aspects ranging from
+            cloud infrastructure and security, to on Prem solutions, migrations
+            and DevOps.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="bottom-container">
+          <h1>Offensive Cybersecurity</h1>
+          <p>
+            We take a proactive and adversarial approach to protecting computer
+            systems, networks and network users from cyber attacks that is based
+            on our automated security software: MAPO (Monitor > Automate >
+            Prevent > Optimise).
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="bottom-container">
+          <h1>Information Security (InfoSec)</h1>
+          <p>
+            Ensuring the safety and privacy of critical data such as customer
+            account details, financial data or intellectual property, that is in
+            line with POPIA. ITRS = Business - Risk2
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="bottom-container">
+          <h1>DR + Risk</h1>
+          <p>
+            An IT disaster recovery plan is a documented methodical proposal for
+            managing situations that occur in the event of natural or human-made
+            disasters. The steps of a disaster recovery plan typically revolve
+            around taking actions that help a business resume operations as
+            quickly as possible. Business continuity systems stress the
+            importance of a disaster recovery plan.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="blogs-container">
+      <!-- 4 divs. each div has an image in it with another div -->
+      <h1 class="blog-heading">Latest Blogs + Articles</h1>
+      <div class="blogs-grid-layout">
+        <div class="articles-div">
+          <img
+            src="Assets/6512858f7ba1f30704601359_Cyber Hygiene  _ The What and Why.jpg"
+            alt=""
+          />
+          <div class="article-text">
+            <h1>Cyber Hygiene | The What and Why</h1>
+            <p>Septemeber 27, 2023</p>
+          </div>
+        </div>
+        <div class="articles-div">
+          <img
+            src="Assets/6512869904d35180d50d4e0e_ITRS password management.jpg"
+            alt=""
+          />
+          <div class="article-text">
+            <h1>
+              How strong is your password? | Password management best practices
+            </h1>
+            <p>Septemeber 27, 2023</p>
+          </div>
+        </div>
+        <div class="articles-div">
+          <img
+            src="Assets/651289840373f9aac4c22818_phishing cybersecurity.jpg"
+            alt=""
+          />
+          <div class="article-text">
+            <h1>
+              Phishing | Types of attacks and critical security measures to keep
+              your business safe
+            </h1>
+            <p>Septemeber 27, 2023</p>
+          </div>
+        </div>
+        <div class="articles-div">
+          <img
+            src="Assets/65128c8f93d78abb61610128_shared or public wifi.jpg"
+            alt=""
+          />
+          <div class="article-text">
+            <h1>
+              Ever Connected With Shared or Public WiFi? You Need to Know This
+            </h1>
+            <p>Septemeber 27, 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <script src="scripts/script.js"></script>
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#">About ITRS ZA</a>
+        <a href="#">Services + Solutions</a>
+        <img
+          src="Assets/6318559b7cad35a7c2789ad6_ITRS White Word Logo.png"
+          alt="logo"
+        />
+        <a href="#">Blog</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="social-media">
+        <div class="social-icons">
+          <img src="Assets/646363ffbdf192de9b07e367_LinkedIn.png" alt="" />
+        </div>
+        <div class="social-icons">
+          <img src="Assets/646363feccc611d03cfd2516_FB.png" alt="" />
+        </div>
+        <div class="social-icons">
+          <img src="Assets/646363ff0dc73cbdd605a268_IG.png" alt="" />
+        </div>
+        <div class="social-icons">
+          <img src="Assets/646363ff1875213127624207_Google.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <script></script>
   </body>
 </html>
