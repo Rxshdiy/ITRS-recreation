@@ -114,3 +114,20 @@ button4.addEventListener('click', () => {
 }
 );
 
+//  click menu icon then adds a classlist to .nav-menu
+
+const menuIcons = document.querySelector('.fa-bars');
+const navMenu = document.querySelector('.nav-menu-clicked');
+const navMenuLinks = document.querySelectorAll('.nav-menu a');
+const closeIcon = document.querySelector('.fa-xmark');
+
+menuIcons.addEventListener('click', () => {
+  navMenu.classList.add('nav-button-clicked');
+});
+
+closeIcon.addEventListener('click', () => {
+  navMenu.classList.remove('nav-button-clicked');
+});
+
+
+

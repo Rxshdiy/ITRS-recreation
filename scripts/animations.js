@@ -66,5 +66,7 @@ const thirdObserver = new IntersectionObserver(function(entries, thirdObserver) 
 
 thirdObserver.observe(thirdLayout);
 
+//  add an event listener to a element to nav menu button that adds a classlist to the nav menu
+
 
 

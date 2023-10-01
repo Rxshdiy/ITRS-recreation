@@ -13,7 +13,6 @@
     <script
       src="https://kit.fontawesome.com/eebca1a7f7.js"
       crossorigin="anonymous"
-      defer
     ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
@@ -38,7 +37,7 @@
     </div>
     <div class="nav-phone-only">
       <img src="Assets/6318559b7cad35d85a789aec_Logo Square.png" alt="" />
-      <img src="Assets/bars-solid.svg" alt="" />
+      <i class="fa-solid fa-bars" style="color: #ffffff"></i>
     </div>
     <div class="nav-menu-clicked">
       <i class="fa-solid fa-xmark" style="color: white"></i>
@@ -54,7 +53,7 @@
     <div class="main-heading">
       <h1 class="heading">IT Risk Management Solutions</h1>
       <p>ITRS = Business - Risk ²</p>
-      <button>Services + solutions</button>
+      <button class="services-button">Services + solutions</button>
     </div>
     <div class="below-main-heading">
       <div class="hover-animated-text hover-text1">
@@ -293,6 +292,15 @@
         </div>
       </div>
     </div>
-    <script></script>
+    <script>
+      // add an event listener to .fa-bars that adds a classlist on .nav-menu-clicked
+
+      const navMenuClicked = document.querySelector(".nav-menu-clicked");
+      const menuIcon = document.querySelector(".fa-bars");
+
+      menuIcon.addEventListener("click", () => {
+        console.log("clicked");
+      });
+    </script>
   </body>
 </html>

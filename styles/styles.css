@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+  
 }
 
 a{
@@ -11,6 +11,10 @@ a{
   color: black;
   cursor: pointer;
   z-index: 100;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 .nav-bar{
@@ -453,6 +457,7 @@ a{
   justify-content: center;
   gap: 15px;
   padding: 3%;
+  
 }
 
 .social-icons{
@@ -466,3 +471,4 @@ a{
   max-width: 100%;
   vertical-align: middle;
 }
+
